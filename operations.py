@@ -1,11 +1,17 @@
+
+
 a = int(input("Enter a : "))
-a = int(input("Enter b : "))
+b = int(input("Enter b : "))
 
-res1 = add(a,b)
-res2 = mul(a,b)
-
-def add(a,b):
-    return pass
+print(add(a,b))
+print(mul(a,b))
 
 def add(a,b):
-    pass
+    return a+b
+
+def mul(a,b):
+    return a*b
+
+
+
+
